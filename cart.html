@@ -115,24 +115,24 @@
 									<td><a href="product_detail.html"><img style="width:40%" alt="" src="themes/images/cordas/violino/3.jpg"></a></td>
 									<td>Produto A</td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
-									<td>$2,350.00</td>
-									<td>$2,350.00</td>
+									<td>R$2,350.00</td>
+									<td>R$2,350.00</td>
 								</tr>			  
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
 									<td><a href="product_detail.html"><img style="width:40%" alt="" src="themes/images/cordas/ukulele/2.jpg"></a></td>
 									<td>Produto B</td>
 									<td><input type="text" placeholder="2" class="input-mini"></td>
-									<td>$1,150.00</td>
-									<td>$2,450.00</td>
+									<td>R$1,150.00</td>
+									<td>R$2,450.00</td>
 								</tr>
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
 									<td><a href="product_detail.html"><img style="width:40%" alt="" src="themes/images/percussao/bateria/3.jpg"></a></td>
 									<td>Produto C</td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
-									<td>$1,210.00</td>
-									<td>$1,123.00</td>
+									<td>R$1,210.00</td>
+									<td>R$1,123.00</td>
 								</tr>
 								<tr>
 									<td>&nbsp;</td>
@@ -144,16 +144,41 @@
 								</tr>		  
 							</tbody>
 						</table>
-						<h4>What would you like to do next?</h4>
-						<p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
-						<label class="radio">
-							<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-							Use Coupon Code
-						</label>
-						<label class="radio">
-							<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-							Estimate Shipping &amp; Taxes
-						</label>
+						<h4>O que você quer fazer em seguida?</h4>
+						<p>Se tivere cupons promocionais ou de troca, digite o código abaixo.</p>
+						
+						<form action="#" method="post">
+							<input type="hidden" name="next" value="/">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label">Calcular o frete</label>
+									<div class="controls">
+										<input type="text" placeholder="Digite seu CEP" id="cep" class="input-xlarge">
+									</div>
+								</div>
+								<div class="control-group">
+									<input tabindex="3" class="btn btn-inverse large" type="submit" value="Calcular">
+									<hr>
+								</div>
+							</fieldset>
+						</form>
+
+						<form action="#" method="post">
+							<input type="hidden" name="next" value="/">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label">Adicionar cupons</label>
+									<div class="controls">
+										<input type="text" placeholder="Digite o código" id="cupom" class="input-xlarge">
+									</div>
+								</div>
+								<div class="control-group">
+									<input tabindex="3" class="btn btn-inverse large" type="submit" value="Calcular">
+									<hr>
+								</div>
+							</fieldset>
+						</form>
+
 						<hr>
 						<p class="cart-total right">
 							<strong>Sub-Total</strong>:	$100.00<br>
@@ -173,56 +198,30 @@
 							<ul class="nav nav-list">
 								<li class="nav-header">CATEGORIAS</li>
 								<li><a href="products.html">Cordas</a></li>
-								<li class="active"><a href="products.html">Percussão</a></li>
-								<li><a href="products.html">Sopro</a></li>
+								<li><a href="products.html">Percussão</a></li>
+								<li class="active"><a href="products.html">Sopro</a></li>
 								<li><a href="products.html">Teclas</a></li>
 							</ul>
 							<br/>
 							<ul class="nav nav-list below">
 								<li class="nav-header">MARCAS</li>
-								<li><a href="products.html">Adidas</a></li>
-								<li><a href="products.html">Nike</a></li>
-								<li><a href="products.html">Dunlop</a></li>
 								<li><a href="products.html">Yamaha</a></li>
+								<li><a href="products.html">Roland</a></li>
+								<li><a href="products.html">Steinway</a></li>
+								<li><a href="products.html">Kawai</a></li>
+								<li><a href="products.html">Weril</a></li>
+								<li><a href="products.html">Mahalo</a></li>
+							</ul>
+							<br/>
+							<ul class="nav nav-list below">
+								<li class="nav-header">CORES</li>
+								<li><a href="products.html">Amarelo</a></li>
+								<li><a href="products.html">Azul</a></li>
+								<li><a href="products.html">Vermelho</a></li>
+								<li><a href="products.html">Verde</a></li>
 							</ul>
 						</div>
-						<div class="block">
-							<h4 class="title">
-								<span class="pull-left"><span class="text">Sugestões</span></span>
-								<span class="pull-right">
-									<a class="left button" href="#myCarousel" data-slide="prev"></a><a class="right button" href="#myCarousel" data-slide="next"></a>
-								</span>
-							</h4>
-							<div id="myCarousel" class="carousel slide">
-								<div class="carousel-inner">
-									<div class="active item">
-										<ul class="thumbnails listing-products">
-											<li class="span3">
-												<div class="product-box">
-													<span class="sale_tag"></span>												
-													<a href="product_detail.html"><img alt="" src="themes/images/ladies/2.jpg"></a><br/>
-													<a href="product_detail.html" class="title">Fusce id molestie massa</a><br/>
-													<a href="#" class="category">Suspendisse aliquet</a>
-													<p class="price">$261</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div class="item">
-										<ul class="thumbnails listing-products">
-											<li class="span3">
-												<div class="product-box">												
-													<a href="product_detail.html"><img alt="" src="themes/images/ladies/4.jpg"></a><br/>
-													<a href="product_detail.html" class="title">Tempor sem sodales</a><br/>
-													<a href="#" class="category">Urna nec lectus mollis</a>
-													<p class="price">$134</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>						
+						
 					</div>
 				</div>
 			</section>			
