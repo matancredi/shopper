@@ -26,7 +26,7 @@
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
 	</head>
-    <body>		
+	<body>		
 		<div id="top-bar" class="container">
 			<div class="row">
 				<div class="span4">
@@ -95,203 +95,323 @@
 			<img class="pageBanner" src="themes/images/pageBanner.png" alt="New products" >
 				<h4><span>Página interna</span></h4>
 			</section>
-            
-            <section class="main-content">				
+			
+			<section class="main-content">				
 				<div class="row">				
-                <div class="span7">
-                        <h4 class="title"><span class="text"><strong>Novo</strong> Instrumento</span></h4>
-                    <form method="post" action="#">
-                        <fieldset>
-                            <div class="clearfix">
-                                <label for="modelo"><span>Modelo:</span></label>
-                                <div class="input">
-                                    <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Modelo">
-                                </div>
-                            </div>
+				<div class="span12">
+				
+				<div class="accordion" id="accordion2">
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" da-ta-parent="#accordion2"
+									href="#collapseOne">Novo Instrumento</a>
+							</div>
+							<div id="collapseOne" class="accordion-body in collapse">
+								<div class="accordion-inner">
+									<div class="row-fluid">
+				
+				
+					<form method="post" action="#">
+						<fieldset>
+							<div class="clearfix">
+								<label for="modelo"><span>Modelo:</span></label>
+								<div class="input">
+									<input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Modelo">
+								</div>
+							</div>
 
-                            <div class="clearfix">
-                                <label for="name"><span>Categoria:</span></label>
-                                <div class="input">
-                                    <input tabindex="1" size="10" id="name" name="name" type="text" value="" class="input-xlarge" placeholder="Categoria">
-                                </div>
-                            </div>
+							<div class="clearfix">
+								<label for="categoria"><span>Categoria:</span></label>
+								<div class="input">
+									<select name="categoria" value="" placeholder="Categoria">
+										<option value="1">Clarinete</option>
+										<option value="1">Flauta</option>
+										<option value="1">Violão</option>
+										<option value="1">Ukulele</option>
+									</select>
+								</div>
+							</div>
 
-                            <div class="clearfix">
-                                <label for="name"><span>Preço:</span></label>
-                                <div class="input">
-                                    <input tabindex="1" size="10" id="name" name="name" type="text" value="" class="input-xlarge" placeholder="Preço">
-                                </div>
-                            </div>
-                            
-                            <div class="clearfix">
-                                <label for="email"><span>Ano de fabricação:</span></label>
-                                <div class="input">
-                                    <input tabindex="2" size="25" id="email" name="email" type="text" value="" class="input-xlarge" placeholder="Ano">
-                                </div>
-                            </div>
-                            
-                            <div class="clearfix">
-                                <label for="email"><span>Cor:</span></label>
-                                <div class="input">
-                                    <input tabindex="2" size="25" id="email" name="email" type="text" value="" class="input-xlarge" placeholder="Cor">
-                                </div>
-                            </div>
+							<div class="clearfix">
+								<label for="preco"><span>Preço:</span></label>
+								<div class="input">
+									<input tabindex="1" size="10" id="preco" name="preco" type="text" value="" class="input-xlarge" placeholder="Preço">
+								</div>
+							</div>
+							
+							<div class="clearfix">
+								<label for="ano"><span>Ano de fabricação:</span></label>
+								<div class="input">
+									<input tabindex="2" size="25" id="ano" name="ano" type="number" value="" class="input-xlarge" placeholder="Ano">
+								</div>
+							</div>
+							
+							<div class="clearfix">
+								<label for="cor"><span>Cor:</span></label>
+								<div class="input">
+									<input tabindex="2" size="25" id="cor" name="cor" type="text" value="" class="input-xlarge" placeholder="Cor">
+								</div>
+							</div>
 
-                            <div class="clearfix">
-                                <label for="email"><span>Material:</span></label>
-                                <div class="input">
-                                    <input tabindex="2" size="25" id="email" name="email" type="text" value="" class="input-xlarge" placeholder="Material">
-                                </div>
-                            </div>
+							<div class="clearfix">
+								<label for="material"><span>Material:</span></label>
+								<div class="input">
+									<input tabindex="2" size="25" id="material" name="material" type="text" value="" class="input-xlarge" placeholder="Material">
+								</div>
+							</div>
 
-                            <div class="clearfix">
-                                <label for="email"><span>Marca:</span></label>
-                                <div class="input">
-                                    <input tabindex="2" size="25" id="email" name="email" type="text" value="" class="input-xlarge" placeholder="Marca">
-                                </div>
-                            </div>
+							<div class="clearfix">
+								<label for="marca"><span>Marca:</span></label>
+								<div class="input">
+									<input tabindex="2" size="25" id="marca" name="marca" type="text" value="" class="input-xlarge" placeholder="Marca">
+								</div>
+							</div>
 
-                            <div class="clearfix">
-                                <label for="email"><span>Dimensões:</span></label>
-                                <div class="input">
-                                    <input tabindex="2" size="25" id="email" name="email" type="text" value="" class="input-xlarge" placeholder="Email Address">
-                                </div>
-                            </div>
+							<div class="clearfix">
+								<label for="dimensoes"><span>Dimensões:</span></label>
+								<div class="input">
+									<input tabindex="2" size="25" id="dimensoes" name="dimensoes" type="text" value="" class="input-xlarge" placeholder="Dimensões">
+								</div>
+							</div>
 
-                            <div class="clearfix">
-                                <label for="email"><span>Disponibilidade (Ativo/Desativado):</span></label>
-                                <div class="input">
-                                    <input tabindex="2" size="25" id="email" name="email" type="text" value="" class="input-xlarge" placeholder="Email Address">
-                                </div>
-                            </div>
-                            
-                            <div class="actions">
-                                <button tabindex="3" type="submit" class="btn btn-inverse">Salvar</button>
-                            </div>
-                        </fieldset>
-                    </form>
-                
-                    <h4 class="title"><span class="text"><strong>Consultar</strong> Clientes</span></h4>
+							<div class="clearfix">
+								<label for="disponibilidade"><span>Disponibilidade:</span></label>
+								<div class="input">
+									<select name="disponibilidade">
+										<option>Ativo</option>
+										<option>Inativo</option>
+									</select>
+								</div>
+							</div>
+							
+							<div class="actions">
+								<button tabindex="3" type="submit" class="btn btn-inverse">Salvar</button>
+							</div>
+						</fieldset>
+					</form>
+					</div>
+					</div>
+					</div>
+					</div>
+				
+				<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" da-ta-parent="#accordion2"
+									href="#collapseTwo">Consultar Clientes</a>
+							</div>
+							<div id="collapseTwo" class="accordion-body in collapse">
+								<div class="accordion-inner">
+									<div class="row-fluid">
 
-                <form method="post" action="#">
-                    <fieldset>
-                        <div class="clearfix">
-                            <label for="modelo"><span>Id do cliente:</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Id">
-                            </div>
-                        </div>
+				<form method="post" action="#">
+					<fieldset>
+						<div class="clearfix">
+							<label for="modelo"><span>Id do cliente:</span></label>
+							<div class="input">
+								<input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Id">
+							</div>
+						</div>
 
-                        <div class="clearfix">
-                            <label for="name"><span>Nome:</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="name" name="name" type="text" value="" class="input-xlarge" placeholder="Name">
-                            </div>
-                        </div>
-
-
-                        <div class="actions">
-                            <button tabindex="3" type="submit" class="btn btn-inverse">Pesquisar</button>
-                        </div>
+						<div class="clearfix">
+							<label for="name"><span>Nome:</span></label>
+							<div class="input">
+								<input tabindex="1" size="10" id="name" name="name" type="text" value="" class="input-xlarge" placeholder="Name">
+							</div>
+						</div>
 
 
-                        <table>Clientes retornados</table>
-                        Exibir classificação do cliente
-                    </fieldset>
-                </form>
-            
-                <h4 class="title"><span class="text"><strong>Consultar</strong> Compras</span></h4>
+						<div class="actions">
+							<button tabindex="3" type="submit" class="btn btn-inverse">Pesquisar</button>
+						</div>
+						</fieldset>
+				</form>
+				<table class="table table-striped">
+											<thread>
+												<th>Id</th>
+												<th>Nome</th>
+												<th>Classificação</th>
+											</thread>
+											<tbody>
+												<tr>
+													<td>123456</td>
+													<td>Paul McCartney</td>
+													<td>7</td>
+												</tr>
+												<tr>
+													<td>789456</td>
+													<td>John Lennon</td>
+													<td>1</td>
+												</tr>
+											</tbody>
+										</table>
+				</div>
+				</div>
+				</div>
+				</div>
 
-                <form method="post" action="#">
-                    <fieldset>
-                        <div class="clearfix">
-                            <label for="modelo"><span>Id da compra:</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Id">
-                            </div>
-                        </div>
 
-                        <div class="clearfix">
-                            <label for="modelo"><span>Status</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Status">
-                            </div>
-                        </div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" da-ta-parent="#accordion2"
+									href="#collapseThree">Consultar Compras</a>
+							</div>
+							<div id="collapseThree" class="accordion-body in collapse">
+								<div class="accordion-inner">
+									<div class="row-fluid">
+					
+			
 
-                        <div class="actions">
-                            <button tabindex="3" type="submit" class="btn btn-inverse">Pesquisar</button>
-                        </div>
 
-                    </fieldset>
-                </form>
-            
-                <h4 class="title"><span class="text"><strong>Adicionar</strong> Itens</span></h4>
+				<form method="post" action="#">
+					<fieldset>
+						<div class="clearfix">
+							<label for="modelo"><span>Id da compra:</span></label>
+							<div class="input">
+								<input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Id">
+							</div>
+						</div>
 
-                <form method="post" action="#">
-                    <fieldset>
-                        <div class="clearfix">
-                            <label for="modelo"><span>Selecionar produto:</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Name">
-                            </div>
-                        </div>
+						<div class="clearfix">
+							<label for="status"><span>Status</span></label>
+							<div class="input">
+								<select name="status">
+									<option>Entregue</option>
+									<option>Em troca</option>
+									<option>Em transporte</option>
+								</select>
+							</div>
+						</div>
 
-                        <div class="clearfix">
-                            <label for="modelo"><span>Quantidade</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Name">
-                            </div>
-                        </div>
+						<div class="actions">
+							<button tabindex="3" type="submit" class="btn btn-inverse">Pesquisar</button>
+						</div>
 
-                        <div class="clearfix">
-                            <label for="modelo"><span>Valor</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Name">
-                            </div>
-                        </div>
+					</fieldset>
+				</form>
+				
+								  <table class="table table-striped">
+											<thread>
+												<th>Id</th>
+												<th>Nome do cliente</th>
+												<th>Data da compra</th>
+												<th>Clique para ver detalhes</th>
+											</thread>
+											<tbody>
+												<tr>
+													<td>123456</td>
+													<td>Paul McCartney</td>
+													<td>25/07/2019</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>789456</td>
+													<td>John Lennon</td>
+													<td>30/07/2019</td>
+													<td></td>
+												</tr>
+											</tbody>
+										</table>
+										</div>
+										</div>
+										</div>
+										</div>
+			
+									<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" da-ta-parent="#accordion2"
+									href="#collapseFour">Adicionar Itens</a>
+							</div>
+							<div id="collapseFour" class="accordion-body in collapse">
+								<div class="accordion-inner">
+									<div class="row-fluid">
+			
+				
 
-                        <div class="clearfix">
-                            <label for="modelo"><span>Fornecedor</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Name">
-                            </div>
-                        </div>
+				<form method="post" action="#">
+					<fieldset>
+						<div class="clearfix">
+							<label for="modelo"><span>Selecionar produto:</span></label>
+							<div class="input">
+								<select name="produto">
+									<option>Flauta Doce Yamaha</option>
+									<option>Ukulele Mahalo Soprano</option>
+									<option>Trombone Weril Tenor</option>
+								</select>
+							</div>
+						</div>
 
-                        <div class="clearfix">
-                            <label for="modelo"><span>Data de entrada</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="text" value="" class="input-xlarge" placeholder="Name">
-                            </div>
-                        </div>
+						<div class="clearfix">
+							<label for="quantidade"><span>Quantidade</span></label>
+							<div class="input">
+								<input tabindex="1" size="10" id="quantidade" name="quantidade" type="number" value="" class="input-xlarge" placeholder="Quantidade">
+							</div>
+						</div>
 
-                        <div class="actions">
-                            <button tabindex="3" type="submit" class="btn btn-inverse">Salvar</button>
-                        </div>
+						<div class="clearfix">
+							<label for="valor"><span>Valor</span></label>
+							<div class="input">
+								<input tabindex="1" size="10" id="valor" name="valor" type="text" value="" class="input-xlarge" placeholder="Valor">
+							</div>
+						</div>
 
-                    </fieldset>
-                </form>
+						<div class="clearfix">
+							<label for="fornecedor"><span>Fornecedor</span></label>
+							<div class="input">
+								<input tabindex="1" size="10" id="fornecedor" name="fornecedor" type="text" value="" class="input-xlarge" placeholder="Fornecedor">
+							</div>
+						</div>
 
-                <h4 class="title"><span class="text"><strong>Cadastrar</strong> Desconto</span></h4>
+						<div class="clearfix">
+							<label for="data"><span>Data de entrada</span></label>
+							<div class="input">
+								<input tabindex="1" size="10" id="data" name="data" type="date" value="" class="input-xlarge" placeholder="Data">
+							</div>
+						</div>
 
-                <form method="post" action="#">
-                    <fieldset>
-                        <div class="clearfix">
-                            <label for="modelo"><span>Valor</span></label>
-                            <div class="input">
-                                <input tabindex="1" size="10" id="modelo" name="modelo" type="number" value="" class="input-xlarge" placeholder="Digite a porcentagem de desconto">
-                            </div>
-                        </div>
+						<div class="actions">
+							<button tabindex="3" type="submit" class="btn btn-inverse">Salvar</button>
+						</div>
 
-                        <div class="actions">
-                            <button tabindex="3" type="submit" class="btn btn-inverse">Salvar</button>
-                        </div>
+					</fieldset>
+				</form>
+</div>
+</div>
+</div>
+</div>
 
-                    </fieldset>
-                </form>
+									<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" da-ta-parent="#accordion2"
+									href="#collapseFive">Cadastrar Desconto</a>
+							</div>
+							<div id="collapseFive" class="accordion-body in collapse">
+								<div class="accordion-inner">
+									<div class="row-fluid">
+				
 
-            </div>				
-                </div>
-            </section>
+				<form method="post" action="#">
+					<fieldset>
+						<div class="clearfix">
+							<label for="valor"><span>Valor</span></label>
+							<div class="input">
+								<input tabindex="1" size="10" id="valor" name="valor" type="number" value="" class="input-xlarge" placeholder="Digite a porcentagem de desconto">
+							</div>
+						</div>
+
+						<div class="actions">
+							<button tabindex="3" type="submit" class="btn btn-inverse">Salvar</button>
+						</div>
+
+					</fieldset>
+				</form>
+				</div>
+				</div>
+				</div>
+				</div>
+
+			</div>				
+				</div>
+			</section>
 			<section id="footer-bar">
 				<div class="row">
 					<div class="span3">
@@ -331,5 +451,5 @@
 			</section>
 		</div>
 		<script src="themes/js/common.js"></script>		
-    </body>
+	</body>
 </html>
